@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b53f86f8-e4c9-4050-be2f-d22c12050b5a": {
+        "id": "b53f86f8-e4c9-4050-be2f-d22c12050b5a",
+        "parent": null,
+        "name": "jmmclone.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "jmmclone.js",
+        "cursor": {
+          "lineNumber": 50,
+          "column": 11
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "jmmclone"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "b53f86f8-e4c9-4050-be2f-d22c12050b5a"
+    ],
+    "currentFileId": "b53f86f8-e4c9-4050-be2f-d22c12050b5a",
+    "resources": {},
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask-sdk": {
+          "name": "ask-sdk",
+          "language": "nodejs",
+          "version": "2.7.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "jmmclone",
+    "projectDescription": "slapp",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1594785746658
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "jmmclone",
+      "url": "https://github.com/celiat/jmmclone"
+    }
+  }
+}
